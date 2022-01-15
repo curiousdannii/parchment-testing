@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Parchment</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <style>
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../dist/web/SourceCodePro-Regular.otf.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Iosevka';
+    font-style: normal;
+    font-weight: 400;
+    src: url(iosevka-fixed-regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Iosevka Extended';
+    font-style: normal;
+    font-weight: 400;
+    src: url(iosevka-fixed-extended.woff2) format('woff2');
+}
+
+body {
+    margin: 0;
+    padding: 6px 10px;
+}
+
+p {
+    font-size: 14px;
+    white-space: pre;
+}
+
+p.scp {
+    font-family: 'Source Code Pro';
+}
+
+p.ios {
+    font-family: 'Iosevka';
+}
+
+p.iose {
+    font-family: 'Iosevka Extended';
+}
+    </style>
+</head>
+<body>
+    <p>Source Code Pro</p>
+    <p class="scp">         11111111112222222222333333333344444<br>12345678901234567890123456789012345678901234</p>
+    <p>Iosevka</p>
+    <p class="ios">         11111111112222222222333333333344444444445555<br>12345678901234567890123456789012345678901234567890123</p>
+    <p>Iosevka Extended</p>
+    <p class="iose">         11111111112222222222333333333344444<br>12345678901234567890123456789012345678901234</p>
+    <p>Iosevka</p>
+    <p class="ios"> !"#$%&amp;'()*+,-./<br>0123456789:;&lt;=&gt;?<br>@ABCDEFGHIJKLMNO<br>PQRSTUVWXYZ[\]^_<br>`abcdefghijklmno<br>pqrstuvwxyz{|}~</p>
+</body>
+</html>
