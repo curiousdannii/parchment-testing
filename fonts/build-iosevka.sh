@@ -1,0 +1,1 @@
+docker run --rm -it -v $(pwd):/build -v $(pwd)/build:/build/dist/iosevka-custom/woff2 avivace/iosevka-build woff2::iosevka-custom
