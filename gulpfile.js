@@ -1,4 +1,3 @@
-import alias from '@rollup/plugin-alias'
 import buffer from 'vinyl-buffer'
 import cleanCSS from 'gulp-clean-css'
 import commonjs from '@rollup/plugin-commonjs'
@@ -53,13 +52,6 @@ function js(opt)
                     format: opt.format,
                 },
                 plugins: [
-                    alias({
-                        entries: [
-                            { find: 'crypto', replacement: '../../../src/common/dummy-node.js' },
-                            { find: 'fs', replacement: '../../../src/common/dummy-node.js' },
-                            { find: 'path', replacement: '../../../src/common/dummy-node.js' },
-                        ]
-                    }),
                     nodeResolve(),
                     commonjs(),
                 ],
