@@ -32,7 +32,6 @@
     "link-local-emglken": "npm link ./src/upstream/emglken",
     "lint": "eslint src/common/ src/inform7/",
     "prepare": "./build.js",
-    "prestart": "./build.js",
     "start": "./build.js --serve"
   },
   "browserslist": [
@@ -40,5 +39,9 @@
     "last 2 versions and supports es6-module",
     "Firefox ESR",
     "not dead"
-  ]
+  ],
+  "browser": {
+    "fs": false,
+    "path": false
+  }
 }

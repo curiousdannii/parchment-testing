@@ -55,7 +55,7 @@ Then you'll need to install the `npm` dependencies:
 npm install
 ```
 
-This will automatically build Parchment locally.
+This will also automatically build Parchment.
 
 Then, you'll need to open `index.html` on a web server. (It won't work when you run it on your filesystem as a `file:///` URL.) You can launch a simple web server like this:
 
