@@ -1,0 +1,20 @@
+ParchmentResource({data:[ {
+    "id": 1,
+    "url": "Figures/DefaultCover.jpg",
+    "alttext": "",
+    "format": "JPEG",
+    "width": 680,
+    "height": 680
+}, {
+    "id": 3,
+    "url": "Figures/Apollo_11_first_step.jpg",
+    "alttext": "",
+    "format": "JPEG",
+    "width": 538,
+    "height": 409
+}, {
+    "id": 4,
+    "url": "Sounds/Pachelbel_ Canon - In D Major.mp3",
+    "alttext": "",
+    "format": "MP3"
+} ]})

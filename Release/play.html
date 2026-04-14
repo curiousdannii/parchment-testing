@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anonymous - Glk Test.inform — Play</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="author" content="Anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="interpreter/parchment.css" type="text/css">
+<script src="interpreter/jquery.min.js"></script>
+<script src="interpreter/ie.js" nomodule></script>
+<script src="interpreter/parchment.js"></script>
+<script>
+(function(){
+const url = 'Glk Test-inform.gblorb.js'
+const filename = url.substring(0, url.length - 3)
+window.parchment_options = {
+jsonp: 'ParchmentResource',
+lib_path: 'interpreter/',
+story: {
+filename,
+resource_map: 'Glk Test-inform.gblorb.resourcemap.json',
+url,
+},
+}
+})()
+</script>
+  
+ </head>
+<body class="play">
+<div class="container">
+<div class="coverimage"><span><a href="Cover.jpg"><img src="Small Cover.jpg" alt="Cover art" border="1" width="120px"></a></span></div>
+<div class="links">
+<div class="smalltitle">Glk Test.inform</div>
+<ul>
+<li><a href="index.html">Home page</a></li>
+</ul>
+</div>
+
+<div id="gameport">
+<div id="windowport">
+<noscript>
+<p>You'll need to turn on Javascript in your web browser to play this game.</p>
+</noscript>
+</div>
+<div id="loadingpane">
+<img src="interpreter/waiting.gif" alt="LOADING"><br>
+<em>&nbsp;&nbsp;&nbsp;Loading...</em>
+</div>
+<div id="errorpane" style="display:none;"><div id="errorcontent">...</div></div>
+</div>
+
+</div>
+<div class="interpretercredit"><a href="https://github.com/curiousdannii/parchment">Parchment for Inform 7 (2026.4)</a></div>
+</body>
+</html>
+
